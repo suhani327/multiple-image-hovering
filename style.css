@@ -1,0 +1,38 @@
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.element {
+    height: 150px;
+    width: 100%;
+    border-bottom: 3px solid rgb(250, 242, 242);
+    font-size: 4vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    z-index: 78;
+    
+}
+
+* {
+    margin: 0px;
+    color: wheat;
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+
+}
+
+#main img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.3s ease;
+    opacity: 0;
+}
